@@ -1,3 +1,14 @@
+# https://github.com/github/gitignore/blob/master/C.gitignore
+
+.metadata/
+.settings/
+Debug/
+.project
+.cproject
+.mxproject
+*.launch
+*.ld
+
 # Prerequisites
 *.d
 
@@ -50,3 +61,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# cscope with Vim
+cscope.*
+
+#ctags with Vim
+tags
+types_c.taghl
+
+#CtrlP
+ctrlp.root
+
+#html
+*.html
